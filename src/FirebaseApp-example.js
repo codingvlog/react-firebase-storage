@@ -18,3 +18,5 @@ export const FirestoreDB = FirebaseApp.firestore();
 FirestoreDB.settings(settings);
 
 export const FirestoreTimestamp = firebase.firestore.FieldValue.serverTimestamp();
+
+//After you change the config to match your own firebase configuration, change this filename to FirebaseApp.js
